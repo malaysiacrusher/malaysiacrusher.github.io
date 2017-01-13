@@ -1,0 +1,274 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="product5.html">
+<title>MCC Machinery - Products</title>
+<link href="../css/css.css" rel="stylesheet" type="text/css" />
+<script src="../js/nav.js" type="text/javascript"></script>
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".select_box").click(function (event) {
+            event.stopPropagation();
+            $(this).find(".option").toggle();
+            $(this).parent().siblings().find(".option").hide();
+        });
+        $(document).click(function (event) {
+            var eo = $(event.target);
+            if ($(".select_box").is(":visible") && eo.attr("class") != "option" && !eo.parent(".option").length)
+                $('.option').hide();
+        });
+        /*赋值给文本框*/
+        $(".option a").click(function () {
+            var value = $(this).text();
+            $(this).parent().siblings(".select_txt").text(value);
+            $("#select_value").val(value)
+        })
+    })
+</script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta http-equiv="pragma" content="no-cache" />
+</head>
+
+
+<body>
+
+
+<!-- Copyright � 2005. Spidersoft Ltd -->
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+
+<!-- /Copyright � 2005. Spidersoft Ltd -->
+
+
+
+<div class="top">
+	<div class="head w1000">
+    	<div class="logo1"><a href="#" title="MCC Machinery">MCC</a></div>
+        <div class="nav">
+        	<ul>
+            	<li><a href="../index.html" id="a0" class="li0" onmouseover="Mea(0);">home</a></li>
+                <li><a href="product.html" id="a1" class="li0" onmouseover="Mea(1);">products</a></li>
+                <li><a href="prolist17.html" id="a2" class="li0" onmouseover="Mea(2);">solutions</a></li>
+                <li><a href="../news/news.html" id="a3" class="li0" onmouseover="Mea(3);">news</a></li>
+                <li><a href="../about/company.html" id="a4" class="li1" onmouseover="Mea(4);">company</a></li>
+                <li><a href="../about/capacity.html" id="a5" class="li0" onmouseover="Mea(5);">capacity</a></li>
+                <li><a href="../about/contact.html" id="a6" class="li0" onmouseover="Mea(6);">contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div> 
+<!--location begein-->
+<div class="location">
+    <div class="w1000">
+        <div class="l-loca">
+            <span class="home">You are here:</span>
+            <a href="#">Home</a> > <span class="dangqian">Products</span>
+        </div>
+        <div class="share">
+        	
+               
+        </div>
+     </div>
+</div>
+<!--location end-->
+
+<div class="search w1000">
+	
+
+    	<div class="sear-l">
+            <div class="select_box">
+            	<span class="select_txt">Select Product Category</span>
+                <div class="option">
+          <a href='prolist3.html' title='Sandstone Equipment'>Sandstone Equipment</a>
+          <a href='prolist4.html' title='Ore Dressing Equipment'>Ore Dressing Equipment</a>
+          <a href='prolist5.html' title='Dryer Machine'>Dryer Machine</a>
+          <a href='prolist6.html' title='Powder Grinding Equipment'>Powder Grinding Equipment</a>
+          <a href='prolist7.html' title='Mobile Crusher'>Mobile Crusher</a>
+          <a href='prolist10.html' title='Briquette Machine'>Briquette Machine</a>
+          <a href='double_disk_friction_screw_press.html' title='Double-disk Friction Screw Press'>Double-disk Friction Screw Press</a>
+          <a href='calcium_silicate_board_equipments.html' title='Calcium Silicate Board Machine'>Calcium Silicate Board Machine</a>
+          <a href='cable_recycling_machine.html' title='Cable Recycling Machine'>Cable Recycling Machine</a>
+          <a href='metal_crusher.html' title='Metal Crusher'>Metal Crusher</a>
+          <a href='prolist15.html' title='Pellet Machine'>Pellet Machine</a>
+          <a href='prolist16.html' title='Cement Making Plant'>Cement Making Plant</a>
+            <a href='prolist18.html' title='Wikipedia'>Wikipedia</a>
+                                      
+                </div>
+                                    <br clear="all" />
+                                    <input type="hidden" id="select_value" /> 
+            </div>
+        </div>
+        <div class="sear-r">
+          <form method="get" action="/search.aspx?key="+key.value" name="search">
+        	<em>Quick Search MCC Product</em><input type="text" class="sear-txt" value="Ball mill" onfocus="if(this.value=='Ball mill'){this.value='';}"  onblur="if(this.value==''){this.value='Ball mill';}" name="key" id="key"/>  
+            <input type="submit" class="sear-btn" value=""/>  
+          </form>            
+        </div>
+           
+    
+</div>
+
+
+<div class="prolist w1000">
+
+
+
+        <div class="list-item">
+    	<div class="img"><a href="cable_recycling_machine.html" title="Cable Recycling Machine"><img src="../uploads/20143281344630.jpg" width="216px" height="160px" alt="Cable Recycling Machine" border="0"/></a></div>
+        <a href="cable_recycling_machine.html" title="Cable Recycling Machine">Cable Recycling Machine</a>
+        <p>Copper wire recycling machine is a kind of environmental protection machinery.</p>
+        <a href="cable_recycling_machine.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="metal_crusher.html" title="Metal crusher"><img src="../uploads/20143281323394.jpg" width="216px" height="160px" alt="Metal crusher" border="0"/></a></div>
+        <a href="metal_crusher.html" title="Metal crusher">Metal crusher</a>
+        <p>Metal crusher is also called metal crushing machine, metal crushing equipment, scrap metal...</p>
+        <a href="metal_crusher.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="stone_crushing_plant.html" title="Stone Crushing Plant"><img src="../uploads/20145271844656.jpg" width="216px" height="160px" alt="Stone Crushing Plant" border="0"/></a></div>
+        <a href="stone_crushing_plant.html" title="Stone Crushing Plant">Stone Crushing Plant</a>
+        <p>Stone crushing plant is the combinations of industrial equipment used in manufacturing san...</p>
+        <a href="stone_crushing_plant.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="flotation_separation_production_line.html" title="Flotation Separation Line"><img src="../uploads/2014327153726.jpg" width="216px" height="160px" alt="Flotation Separation Line" border="0"/></a></div>
+        <a href="flotation_separation_production_line.html" title="Flotation Separation Line">Flotation Separation Line</a>
+        <p>Flotation separation line consists of jaw crusher, ball mill, classifier, mixing barrels, ...</p>
+        <a href="flotation_separation_production_line.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="magnetic_separator_production_line.html" title="Magnetic Separator Production Line"><img src="../uploads/20143271526111.jpg" width="216px" height="160px" alt="Magnetic Separator Production Line" border="0"/></a></div>
+        <a href="magnetic_separator_production_line.html" title="Magnetic Separator Production Line">Magnetic Separator Production Line</a>
+        <p>Magnetic separation process needs jaw crusher, ball mill, classifier, magnetic separator, ...</p>
+        <a href="magnetic_separator_production_line.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="coal-gangue-crusher.html" title="Coal Gangue Crusher"><img src="../uploads/201484152328.jpg" width="216px" height="160px" alt="Coal Gangue Crusher" border="0"/></a></div>
+        <a href="coal-gangue-crusher.html" title="Coal Gangue Crusher">Coal Gangue Crusher</a>
+        <p>Coal gangue crusher, limestone crusher, iron ore crusher, barite crusher, marble crusher a...</p>
+        <a href="coal-gangue-crusher.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="quartz_crusher.html" title="Quartz Crusher"><img src="../uploads/2014829246781.jpg" width="216px" height="160px" alt="Quartz Crusher" border="0"/></a></div>
+        <a href="quartz_crusher.html" title="Quartz Crusher">Quartz Crusher</a>
+        <p>Cobble crusher, calcite crusher, granite crusher, basalt crusher, quartz crusher and dolom...</p>
+        <a href="quartz_crusher.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="raw_material_mill.html" title="Raw Material Mill"><img src="../uploads/2014327858594.jpg" width="216px" height="160px" alt="Raw Material Mill" border="0"/></a></div>
+        <a href="raw_material_mill.html" title="Raw Material Mill">Raw Material Mill</a>
+        <p>Raw material mill is one of the major cement equipments and is the key equipment for grind...</p>
+        <a href="raw_material_mill.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="air_swept_coal_mill.html" title="Air-swept Coal Mill"><img src="../uploads/2014327916271.jpg" width="216px" height="160px" alt="Air-swept Coal Mill" border="0"/></a></div>
+        <a href="air_swept_coal_mill.html" title="Air-swept Coal Mill">Air-swept Coal Mill</a>
+        <p>Air-swept coal mill is used to grind and dry various coals; mainly composed of feeding dev...</p>
+        <a href="air_swept_coal_mill.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="three_drum_dryer.html" title="Three-drum Dryer"><img src="../uploads/2014731172931.jpg" width="216px" height="160px" alt="Three-drum Dryer" border="0"/></a></div>
+        <a href="three_drum_dryer.html" title="Three-drum Dryer">Three-drum Dryer</a>
+        <p>The three-drum dryer is mainly composed of inner cylinder, outer cylinder, roller, tire su...</p>
+        <a href="three_drum_dryer.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="ultrafine_mill.html" title="Ultrafine Mill"><img src="../uploads/2014731181746.jpg" width="216px" height="160px" alt="Ultrafine Mill" border="0"/></a></div>
+        <a href="ultrafine_mill.html" title="Ultrafine Mill">Ultrafine Mill</a>
+        <p>Ultrafine mill, also known as superfine mill, is a kind of Raymond mill. It is widely used...</p>
+        <a href="ultrafine_mill.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+        <div class="list-item">
+    	<div class="img"><a href="ceramsite_sand_production_line.html" title="Ceramsite Sand Production Line"><img src="../uploads/2014829181234.jpg" width="216px" height="160px" alt="Ceramsite Sand Production Line" border="0"/></a></div>
+        <a href="ceramsite_sand_production_line.html" title="Ceramsite Sand Production Line">Ceramsite Sand Production Line</a>
+        <p>Ceramsite sand production line is mainly composed of raw material silo, dust chamber, fan,...</p>
+        <a href="ceramsite_sand_production_line.html" class="more2" rel="nofollow">Learn More</a>
+    </div>
+        
+
+
+
+    <!--fy--> 
+          <div id="ctl00_ContentConn_PageInfo"> 
+          <a id="start" href="product.html">First page</a>
+          <a id="lnkPrev" href="product4.html">Previous</a>
+          <span id="pagenum"><a href='product.html' title='1'  >&nbsp;1&nbsp;</a><a href='product2.html' title='2'  >&nbsp;2&nbsp;</a><a href='product3.html' title='3'  >&nbsp;3&nbsp;</a><a href='product4.html' title='4'  >&nbsp;4&nbsp;</a><a href='product5.html' title='5'  class='current'>&nbsp;5&nbsp;</a><a href='product6.html' title='6'  >&nbsp;6&nbsp;</a><a href='product7.html' title='7'  >&nbsp;7&nbsp;</a><a href='product8.html' title='8'  >&nbsp;8&nbsp;</a><a href='product9.html' title='9'  >&nbsp;9&nbsp;</a></span>
+          <a id="lnkNext" href="product6.html">Next</a>
+          <a id="max" href="product9.html">Last page</a>
+          </div>
+<!--fyover-->  
+   
+
+<script type="text/javascript">
+        $('.list-item').bind('mouseenter', function () {
+            $(this).addClass('hover');
+        }).bind('mouseleave', function () {
+            $(this).removeClass('hover');
+        }); 
+ </script>
+    
+   
+    
+</div>
+
+<!--foot-->
+<div class="foot">
+	<div class="w1000">
+    	<div class="hotpro">
+        	<h3>Hot Products</h3>
+            <ul>
+            	<li><a href='classifier.html' title='Spiral Classifier'>Spiral Classifier</a></li><li><a href='sand_dryer.html' title='Sand Dryer'>Sand Dryer</a></li><li><a href='slag_dryer.html' title='Slag Dryer'>Slag Dryer</a></li><li><a href='drum_dryer.html' title='Drum Dryer'>Drum Dryer</a></li><li><a href='coal_slime_dryer.html' title='Coal Slime Dryer'>Coal Slime Dryer</a></li><li><a href='bentonite_dryer.html' title='Bentonite Dryer'>Bentonite Dryer</a></li><li><a href='three_drum_dryer.html' title='Three-drum Dryer'>Three-drum Dryer</a></li>
+            </ul>            
+        </div>
+        <div class="subscribe">
+        	<h3>Subscribe Products</h3>
+            <div class="tijiao">
+             <form method="post" action="/submitemail.aspx" name="subemail">
+            	<input type="text" class="text" value="Fill your email" onfocus="if(this.value=='Fill your email'){this.value='';}"  onblur="if(this.value==''){this.value='Fill your email';}" id="email" name="email"/>
+                <input type="submit" class="sub2" />
+            </form>
+            </div>
+            <p>If you are interested in our products, please leave us your email. We will send you the latest product information at irregular intervals. </p>
+        </div>
+        <div class="contact">
+        	<h3>Contact us</h3>
+            <p>We will always serve customers by the service tenet of "to be responsible for every procedure".</p>
+            <span>Tel: +86-371-69606666</span>
+			<span>Email: <a href="SBM@atruesmilefoundation.com ">SBM@atruesmilefoundation.com </a></span>
+            
+        </div>
+        
+    </div>
+</div>
+<div class="copy">
+	<p class="w1000">Add: High and New Industrial Zone, Kexue Revenue, High and New Technology Industrial Development Zone, Zhengzhou, China.&nbsp;&nbsp;&nbsp;
+</span></p>
+</div>
+
+</body>
+</html>
+<script language="javascript" src="../js/chat.js"></script>
